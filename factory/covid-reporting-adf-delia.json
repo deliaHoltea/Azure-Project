@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-adf-delia",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "94f75632-f49b-4672-b1b1-38265d682013",
+		"tenantId": "ce89e01c-6dee-4aec-a98f-41ea5dc85cb5"
+	}
+}

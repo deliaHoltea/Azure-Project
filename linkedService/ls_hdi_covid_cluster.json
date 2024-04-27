@@ -1,0 +1,18 @@
+{
+	"name": "ls_hdi_covid_cluster",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HDInsight",
+		"typeProperties": {
+			"clusterUri": "https://covidReportingHdi.azurehdinsight.net",
+			"userName": "admin",
+			"isEspEnabled": false,
+			"linkedServiceName": {
+				"referenceName": "ls_ablob_covidreportingdelia",
+				"type": "LinkedServiceReference"
+			},
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDU0OTgyQTc1LUZBNkUtNDFBRi05MDQ5LTFGN0RDODBBMkVCRV82OTg4OWNlNi0xMzg3LTRkNWUtOWM0Yy1hYzdkYzg2YTNkNTciDQp9"
+		}
+	}
+}
